@@ -1507,10 +1507,8 @@ public class Registration extends javax.swing.JFrame {
         // TODO add your handling code here:
         String user = user_jTextField.getText();
         String user1= user.toUpperCase();
-        System.out.println(user1);
         String pass = pass_jPasswordField.getText();
         String pass1= pass.toUpperCase();
-        System.out.println(pass1);
         try {
             if ("ADMIN".equals(user1) && "@ADMIN".equals(pass1)) {
                 JOptionPane.showMessageDialog(rootPane, "Login Successful :)");
